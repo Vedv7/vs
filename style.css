@@ -1,0 +1,80 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    background: white;
+    margin: 1rem 0;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 30%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background: #007bff;
+    color: white;
+}
+
+.card-content {
+    display: none;
+}
+
+.card-content a {
+    display: block;
+    margin: 0.5rem 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #007bff;
+    color: white;
+}
+
