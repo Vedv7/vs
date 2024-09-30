@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSOM Resources Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the JSOM Resources Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#prospective">Prospective Students</a></li>
+                <li><a href="#current">Current Students</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#international">International Students</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="prospective">
+        <h2>Prospective Students</h2>
+        <div class="content">
+            <div class="card" onclick="toggleCard(this)">
+                <h3>Undergraduate Programs</h3>
+                <p>Click to see more</p>
+                <div class="card-content">
+                    <a href="https://jindal.utdallas.edu/undergraduate-programs/">Learn about Undergraduate Programs</a>
+                    <a href="#">Scholarships & Financial Aid</a>
+                </div>
+            </div>
+            <div class="card" onclick="toggleCard(this)">
+                <h3>Graduate Programs</h3>
+                <p>Click to see more</p>
+                <div class="card-content">
+                    <a href="https://jindal.utdallas.edu/masters-programs/">Explore Graduate Programs</a>
+                    <a href="#">Admissions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="current">
+        <h2>Current Students</h2>
+        <div class="content">
+            <div class="card" onclick="toggleCard(this)">
+                <h3>Undergraduate Resources</h3>
+                <div class="card-content">
+                    <a href="#">Academic Advising</a>
+                    <a href="#">Career Management Center</a>
+                </div>
+            </div>
+            <div class="card" onclick="toggleCard(this)">
+                <h3>Graduate Resources</h3>
+                <div class="card-content">
+                    <a href="#">Graduate Assistantships</a>
+                    <a href="#">Internship Opportunities</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="alumni">
+        <h2>Alumni</h2>
+        <div class="content">
+            <div class="card" onclick="toggleCard(this)">
+                <h3>Networking</h3>
+                <div class="card-content">
+                    <a href="#">Alumni Events</a>
+                    <a href="#">Mentor Programs</a>
+                </div>
+            </div>
+            <div class="card" onclick="toggleCard(this)">
+                <h3>Career Resources</h3>
+                <div class="card-content">
+                    <a href="#">Job Boards</a>
+                    <a href="#">Alumni Career Support</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="international">
+        <h2>International Students</h2>
+        <div class="content">
+            <div class="card" onclick="toggleCard(this)">
+                <h3>ISSO Resources</h3>
+                <div class="card-content">
+                    <a href="https://isso.utdallas.edu/">International Student Office</a>
+                    <a href="#">OPT & Visa Support</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 JSOM. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
