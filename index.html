@@ -3,104 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSOM Resources Hub</title>
-    <!-- Link to your external CSS file -->
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/Vedv7/vs/main/style.css"> 
-    <!-- Link to your external JS file -->
-    <script src="https://raw.githubusercontent.com/Vedv7/vs/main/script.js" defer></script> 
+    <title>JSOM Navigator: Your Path to Success</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to the JSOM Resources Hub</h1>
-        <nav>
-            <ul>
-                <li><a href="#prospective">Prospective Students</a></li>
-                <li><a href="#current">Current Students</a></li>
-                <li><a href="#alumni">Alumni</a></li>
-                <li><a href="#international">International Students</a></li>
-            </ul>
-        </nav>
+    <header class="hero-section">
+        <div class="hero-overlay">
+            <h1>Naveen Jindal School of Management</h1>
+            <p>Your Path to Success</p>
+            <a href="#prospective" class="cta-btn">Get Started</a>
+        </div>
     </header>
 
-    <section id="prospective">
+    <nav>
+        <ul>
+            <li><a href="#prospective">Prospective Students</a></li>
+            <li><a href="#current">Current Students</a></li>
+            <li><a href="#alumni">Alumni</a></li>
+        </ul>
+    </nav>
+
+    <section id="prospective" class="section">
         <h2>Prospective Students</h2>
-        <div class="content">
-            <div class="card" onclick="toggleCard(this)">
-                <h3>Undergraduate Programs</h3>
-                <p>Click to see more</p>
-                <div class="card-content">
-                    <a href="https://jindal.utdallas.edu/undergraduate-programs/">Learn about Undergraduate Programs</a>
-                    <a href="#">Scholarships & Financial Aid</a>
-                </div>
+        <div class="content-block">
+            <div class="subsection">
+                <h3>Graduate</h3>
+                <ul>
+                    <li>Program Overview</li>
+                    <li>Scholarships</li>
+                    <li>Submit Documents</li>
+                    <li>Comet Card</li>
+                    <li>UTD Healthcare</li>
+                </ul>
             </div>
-            <div class="card" onclick="toggleCard(this)">
-                <h3>Graduate Programs</h3>
-                <p>Click to see more</p>
-                <div class="card-content">
-                    <a href="https://jindal.utdallas.edu/masters-programs/">Explore Graduate Programs</a>
-                    <a href="#">Admissions</a>
-                </div>
+            <div class="subsection">
+                <h3>Undergraduate</h3>
+                <ul>
+                    <li>Program Overview</li>
+                    <li>Scholarships</li>
+                    <li>On-Campus Accommodation</li>
+                    <li>Submit Documents</li>
+                    <li>Orientation Events</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="current">
+    <section id="current" class="section">
         <h2>Current Students</h2>
-        <div class="content">
-            <div class="card" onclick="toggleCard(this)">
-                <h3>Undergraduate Resources</h3>
-                <div class="card-content">
-                    <a href="#">Academic Advising</a>
-                    <a href="#">Career Management Center</a>
-                </div>
+        <div class="content-block">
+            <div class="subsection">
+                <h3>Graduate</h3>
+                <ul>
+                    <li>JSOM Events</li>
+                    <li>Networking Events</li>
+                    <li>JSOM Career Management Center</li>
+                    <li>Handshake</li>
+                </ul>
             </div>
-            <div class="card" onclick="toggleCard(this)">
-                <h3>Graduate Resources</h3>
-                <div class="card-content">
-                    <a href="#">Graduate Assistantships</a>
-                    <a href="#">Internship Opportunities</a>
-                </div>
+            <div class="subsection">
+                <h3>Undergraduate</h3>
+                <ul>
+                    <li>Career Fairs</li>
+                    <li>JSOM Career Management Center</li>
+                    <li>Clubs</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="alumni">
+    <section id="alumni" class="section">
         <h2>Alumni</h2>
-        <div class="content">
-            <div class="card" onclick="toggleCard(this)">
-                <h3>Networking</h3>
-                <div class="card-content">
-                    <a href="#">Alumni Events</a>
-                    <a href="#">Mentor Programs</a>
-                </div>
-            </div>
-            <div class="card" onclick="toggleCard(this)">
-                <h3>Career Resources</h3>
-                <div class="card-content">
-                    <a href="#">Job Boards</a>
-                    <a href="#">Alumni Career Support</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="international">
-        <h2>International Students</h2>
-        <div class="content">
-            <div class="card" onclick="toggleCard(this)">
-                <h3>ISSO Resources</h3>
-                <div class="card-content">
-                    <a href="https://isso.utdallas.edu/">International Student Office</a>
-                    <a href="#">OPT & Visa Support</a>
-                </div>
-            </div>
-        </div>
+        <ul>
+            <li>JindalConnect</li>
+            <li>Donate</li>
+            <li>Mentor Programs</li>
+        </ul>
     </section>
 
     <footer>
-        <p>&copy; 2024 JSOM. All rights reserved.</p>
+        <p>Connect with us: <a href="#">LinkedIn</a> | <a href="#">Twitter</a></p>
     </footer>
 
-    <script src="https://raw.githubusercontent.com/Vedv7/vs/main/script.js"></script> <!-- Link to external JS file -->
+    <script src="app.js"></script>
 </body>
 </html>
+
